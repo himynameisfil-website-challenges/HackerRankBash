@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 @test "Text Processing Cut 6 : Given Sample" {
-    run sh TextProcessingCut6.sh "TextProcessingCut6SampleInput.txt"
+    run sh ./cut/TextProcessingCut6.sh "./cut/TextProcessingCut6SampleInput.txt"
 
     expectedOutput="""a state in the Northeastern and Mid-Atlantic regions of the United States.
 the 27th-most extensive, the third-most populous populated of the 50 United States.

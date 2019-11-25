@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 @test "Text Processing cut 8 base test case" {
-    run sh TextProcessingCut8.sh "TextProcessingCut8TestFile.txt"
+    run sh ./cut/TextProcessingCut8.sh "./cut/TextProcessingCut8TestFile.txt"
     expectedOutput="New York is
 New York is
 New York is

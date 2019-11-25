@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 
-@test "Text Processing Cut 2 : Scenario Initial case" {
-    run sh TextProcessingCut2.sh << EOF
+
+@test "Text Processing Cut 3 : Scenario Initial case" {
+    run sh ./cut/TextProcessingCut3.sh << EOF
     Hello
     World
     how are you
 EOF
-    expectedOutput="""e
-o
-oe"""
+    expectedOutput="""ello
+orld
+ow are"""
     echo "Printing the Expected Output: ${expectedOutput}"
     echo "Printing the Actual Output: ${output}"
 
